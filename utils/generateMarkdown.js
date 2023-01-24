@@ -14,7 +14,9 @@ function generateMarkdown(userResponses, userInfo) {
 
   if (userResponses.tests !== '') { draftToC += `
   * [Tests](#tests)` };
-
+  
+  if (userResponses.credits !== '') { draftToC += `
+  * [credits](#credits)` };
 
   // Generate markdown for the top required portions of the README
   let draftMarkdown = 
@@ -98,6 +100,19 @@ function generateMarkdown(userResponses, userInfo) {
   ${userResponses.tests}`
   };
 
+  // Optional Credits section
+  if (userResponses.credits !== '') {
+
+  draftMarkdown +=
+  `
+    
+  ## Credits
+    
+  *If you want to add any credits, this is the place to do it*
+    
+  ${userResponses.credits}`
+  }
+
 
   // License section is required
   draftMarkdown +=
@@ -116,8 +131,6 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Questions?
 
-  <img src="${userInfo.avatar_url}" alt="${userInfo.login}" width="40%" />
-  
   For any questions, please contact me with the information below:
  
   GitHub: [@${userInfo.login}](${userInfo.url})

@@ -10,6 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.2",
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djdevj/node-readme.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/djdevj/node-readme/issues"
+  },
+  "homepage": "https://github.com/djdevj/node-readme#readme"
 }
