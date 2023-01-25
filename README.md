@@ -7,7 +7,9 @@
   ## Description 
     
   
-  This is an easy way to generate ReadMe files for projects, hopfully saving time on the creation process by staying in the VS Code application. It uses JavaScript to generate markdown based on preloaded questions that are given. This ReadMe was created with this generator.
+  This is an easy way to generate ReadMe files for projects, hopfully saving time on the creation process by staying in the VS Code application. It uses JavaScript to generate markdown based on preloaded questions that are given. Results will be shown in an "ExampleREADME" file that will be auto generated. This program will not overwrite your main README file. 
+  
+This ReadMe was created with this generator.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -26,6 +28,12 @@
   Here's a clip of the program in use: 
   
  https://drive.google.com/file/d/1snaAis5oF-tzImbioltSdTCJDSWsRwk3/view
+ 
+ ### Screenshots
+ ![README gen SS](https://user-images.githubusercontent.com/120237391/214498871-e5b54532-2ef8-43ed-b233-37f8669b041a.png)
+ ![README gen SS 2](https://user-images.githubusercontent.com/120237391/214499228-8b760b76-ff4d-4024-b3cf-b185fcc17ab4.png)
+
+ 
     
   ## Credits
     
