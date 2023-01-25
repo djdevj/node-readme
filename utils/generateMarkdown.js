@@ -1,6 +1,6 @@
 function generateMarkdown(userResponses, userInfo) {
 
-  // Generate Table of Contents conditionally based on userResponses
+  // Table of contents based on entries
   let draftToC = `## Table of Contents`;
 
   if (userResponses.installation !== '') { draftToC += `
@@ -22,9 +22,9 @@ function generateMarkdown(userResponses, userInfo) {
   let draftMarkdown = 
   `# ${userResponses.title}
 
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
+  // ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
   
-  Check out the badges hosted by [shields.io](https://shields.io/).
+  // Check out the badges hosted by [shields.io](https://shields.io/).
   
   
   ## Description 
@@ -51,7 +51,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  *Instructions for instruction and deployment:*
   
   ${userResponses.installation}`
   };
@@ -66,7 +66,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Usage 
   
-  *Instructions and examples for use:*
+  *Examples of real time use:*
   
   ${userResponses.usage}`
   };
@@ -81,7 +81,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Contributing
   
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
+  *If you'd like to contribute, here's how to do so:*
   
   ${userResponses.contributing}`
   };
@@ -108,8 +108,6 @@ function generateMarkdown(userResponses, userInfo) {
     
   ## Credits
     
-  *If you want to add any credits, this is the place to do it*
-    
   ${userResponses.credits}`
   }
 
@@ -131,7 +129,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ## Questions?
 
-  For any questions, please contact me with the information below:
+  For any questions, please contact me using the folowing link(s):
  
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;

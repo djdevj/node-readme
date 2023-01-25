@@ -1,53 +1,37 @@
-# Doctor Bombay
+# Node Based README Generator
 
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/djdevj/bombay mang?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/djdevj/bombay mang?style=flat&logo=appveyor)
+  // ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/djdevj/node-readme?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/djdevj/node-readme?style=flat&logo=appveyor)
   
-  Check out the badges hosted by [shields.io](https://shields.io/).
+  // Check out the badges hosted by [shields.io](https://shields.io/).
   
   
   ## Description 
   
   *The what, why, and how:* 
   
-  It's the bomb
+  This is an easy way to generate ReadMe files for projects, hopfully saving time on the creation process by staying in the VS Code application. It uses JavaScript to generate markdown based on preloaded questions that are given. This ReadMe was created with this generator.
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
   * [credits](#credits)
   * [License](#license)
   
   ## Installation
   
-  *Steps required to install project and how to get the development environment running:*
+  *Instructions for instruction and deployment:*
   
-  nah
+  You will need to have NODE installed on your PC/laptop first. In your CLI, you will need to install NPM and then install Inquirer from the NPM package. Once those are installed, you will be able to use the terminal inside of VS Code to run the program.
   
   ## Usage 
   
-  *Instructions and examples for use:*
+  *Examples of real time use:*
   
-  Nope
-  
-  ## Contributing
-  
-  *If you would like to contribute it, you can follow these guidelines for how to do so.*
-  
-  They can't
-  
-  ## Tests
-  
-  *Tests for application and how to run them:*
-  
-  I forgot to do that.
+  Here's a clip of the program in use:
     
   ## Credits
     
-  *If you want to add any credits, this is the place to do it*
-    
-  Me all day
+  Big thanks going to my Bootcamp instructors for teaching this material, and also Connie Tran for design inspiration.
   
   ## License
   
@@ -57,7 +41,7 @@
   
   ## Questions?
 
-  For any questions, please contact me with the information below:
+  For any questions, please contact me using the folowing link(s):
  
   GitHub: [@djdevj](https://api.github.com/users/djdevj)
   
